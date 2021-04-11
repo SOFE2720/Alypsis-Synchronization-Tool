@@ -1,0 +1,64 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.footer {  
+position: fixed;  
+left: 10px;  
+bottom: 5px;  
+right: 10px;   
+width: 95%;  
+background-color: gray;  
+color: white;  
+text-align: center;  
+}   
+
+img {
+    opacity: 0.5;
+}
+h2{
+    color: white; 
+}
+.bg {
+  /* The image used */
+  background-image: url("background.jpg");
+  /* Half height */
+  height: 50%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<!-- Required meta tags --> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<title>Alypsis Synchronization Tool</title>
+
+</head>
+
+<body>
+
+
+<div class="jumbotron text-center">
+    <img class="text-center" src="imgs/AlypsisLogo_400x.png">
+    <br><br>
+    <h3>This process will take some time, please be patient</h3>
+    <br><br><br>
+    <form action='http://127.0.0.1:3000/api'>
+        <input type='submit' value='Begin Synchronization'>
+    </form>
+
+</div>
+<div class="footer"> Alypsis Synchronization Tool &#169; 2021 <br> Curators: Aiden Jolley-Ruhn - Aiden.jolleyruhn@Ontariotechu.net <br> Adhish Malhotra - Adhish.malhotra@Ontariotechu.net</div>
+
+
+
+</div>
+</body>
+</html>
